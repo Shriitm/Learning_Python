@@ -18,21 +18,21 @@ print("/___|")
 # Variables
 
 ```python
-print("My name is Rishi")
+print("My name is Shripad")
 print("I am 60 years old")
-print("I like my name Rishi a lot")
+print("I like my name Shripad a lot")
 print("But I don't like being 60")
 
 # Updating variables would be a hectic task
 
-character_name = "Rishi"
+character_name = "Shripad"
 character_age = "60"
 print("My name is " + character_name + ",")
 print("I am 60 "+ character_age + " years old")
 print("I like my name " + character_name + " a lot")
 print("But I don't like being " + character_name)
 
-character_name = "Rishi" # String variable
+character_name = "Shripad" # String variable
 character_age = 59.6 # Integer/Float variable
 is_female = False # Boolean variable
 ```
@@ -144,8 +144,8 @@ print("I love " + sportsman)
 # Lists
 
 ```python
-friends = ["Sakshi", "Rashi", "Harshit", "Shruti", "Aditya"]
-friends_1 = ["Sakshi", 2, False]
+friends = ["Aakash", "Ramesh", "Harsh", "Rocky", "Aditya"]
+friends_1 = ["Aakash", 2, False]
 
 print(friends)
 print(friends[1]) # Prints the second element
@@ -157,7 +157,7 @@ print(friends[1:3]) # Prints the second to third element
 
 ```python
 num = [11, 23, 11, 23, 77, 89, 08]
-friends = ["Sakshi", "Rashi", "Harshit", "Shruti", "Aditya"]
+friends = ["Aakash", "Ramesh", "Harsh", "Rocky", "Aditya"]
 
 print(friends) # Prints the list
 
@@ -166,12 +166,12 @@ friends.extend("Parth") # Appends given element at the end
 
 friends.insert(1, "Divya") # Adds given element at given index
 
-friends.remove("Rashi") # Removes given element from the list
+friends.remove("Ramesh") # Removes given element from the list
 friends.clear() # Empties the list
 friends.pop() # Removes last element
 
-print(friends.index("Harshit")) # Prints index of element
-print(friends.count("Shruti")) # Prints number of occurances
+print(friends.index("Harsh")) # Prints index of element
+print(friends.count("Rocky")) # Prints number of occurances
 
 friends.sort() # Sorts the list
 num.reverse() # Reverses the list
